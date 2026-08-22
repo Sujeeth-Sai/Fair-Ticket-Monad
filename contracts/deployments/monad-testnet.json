@@ -1,0 +1,19 @@
+{
+  "network": "monadTestnet",
+  "chainId": 10143,
+  "contractName": "FairTicket",
+  "contractAddress": "0x5d91c595b263469059c9494a7c40600d4a061146",
+  "deploymentTransaction": "0x3d33974cea5cd95a3e077916b0fac1d07d3c56c1b969a9cb827d2f1a2ead259a",
+  "deploymentBlock": 55917203,
+  "organizer": "0xCCf414e9c596C2C3754F2557785E130023cAA9A7",
+  "event": {
+    "name": "Neon Ragas",
+    "venue": "HITEX Arena, Hyderabad",
+    "startsAt": 1788012000,
+    "maxSupply": 20,
+    "maxPrimaryPurchasesPerWallet": 2,
+    "faceValueWei": "10000000000000000",
+    "resalePriceCapWei": "11000000000000000",
+    "metadataBaseUri": "https://fairticket-monad.sujeethsai265.chatgpt.site/api/metadata/"
+  }
+}
