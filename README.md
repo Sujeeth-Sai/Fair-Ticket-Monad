@@ -27,7 +27,7 @@ Confirm which one before you go on stage.
 
 - **Contract address:** `0x5d91c595b263469059c9494a7c40600d4a061146`
 - **Chain ID:** `10143`
-- **Explorer:** https://testnet.monadexplorer.com/address/0x5d91c595b263469059c9494a7c40600d4a061146
+- **Explorer:** https://fairticket-monad.sujeethsai265.chatgpt.site
 - **Organizer / owner wallet:** `0xCCf414e9c596C2C3754F2557785E130023cAA9A7`
 - **Event configured:** "Neon Ragas" · HITEX Arena, Hyderabad · 20 max supply · 0.01 MON face value · 10% resale markup
 
