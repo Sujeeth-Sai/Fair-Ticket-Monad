@@ -2,13 +2,14 @@
 
 The contract mints event tickets at a fixed primary price, disables ordinary
 ERC-721 transfers, and permits ownership changes only through its price-capped
-resale marketplace. Gate entry requires a ten-minute signature from the
+resale marketplace. The next resale cap is based on the current owner's
+acquisition price, so it can compound across resales. Gate entry requires a ten-minute signature from the
 current owner and succeeds only once.
 
 ## Install and test
 
 ```shell
-npm install
+npm ci
 npm test
 npm run compile
 ```
@@ -16,8 +17,9 @@ npm run compile
 ## Testnet deployment
 
 The default module deploys the Neon Ragas demo with 20 tickets, a 0.01 MON
-face price, a two-primary-purchase lifetime limit, and a 10% resale markup cap.
-The metadata base URL points to the FairTicket website.
+face price, a ten-purchase wallet limit, and a 10% resale markup cap.
+The metadata base URL points to the FairTicket website. Review all defaults,
+including the event timestamp, in `ignition/modules/FairTicket.ts` before deploying.
 
 Store the funded testnet wallet key in Hardhat's encrypted keystore:
 
